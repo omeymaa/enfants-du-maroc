@@ -30,6 +30,11 @@ body {
     background-color: #E5C889;
 }
 
+/* Fil d'ariane */
+#ariane {
+    background-color: bisque;
+}
+
 /* Landing page */
 .background {
     background-image: url('images/bg.jpg');
@@ -78,4 +83,9 @@ footer {
 
 #reseaux-sociaux img {
     height: 5rem;
+}
+
+/* Notre équipe */
+#equipe {
+    background-color: lightgrey;
 }
