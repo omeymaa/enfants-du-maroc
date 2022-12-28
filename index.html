@@ -1,54 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enfants du Maroc : Association d'Aide aux Orphelins du Maroc</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!--Navbar-->
-    <div class="container">
-        <header class="navbar navbar-light navbar-expand-lg row">
-            <div class="logo container-fluid col-4">
-                <a href="index.html" class="navbar-brand">
-                    <img src="images/Logo.png" alt="Logo Association Enfants du Maroc">
-                </a>
+    <!-- Navbar -->
+    <div class="background w-100 h-100">
+        <div class="container">
+            <header class="navbar navbar-light navbar-expand-lg row">
+                <div class="logo container-fluid col-5 d-flex justify-content-start">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="images/Logo.png" alt="Logo Association Enfants du Maroc">
+                    </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavToggler" aria-controls="navbarNavToggler" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavToggler" aria-controls="navbarNavToggler" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+
+                <nav class="collapse navbar-collapse text-uppercase justify-content-end col-4" id="navbarNavToggler">
+                    <ul class="navbar-nav nav-pills">
+                        <li class="nav-item me-2"><a href="index.html" class="nav-link active" aria-current="page">Acceuil</a></li>
+                        <li class="nav-item me-2"><a href="about-us.html" class="nav-link text-white">À propos de nous</a></li>
+                        <li class="nav-item me-2"><a href="events.html" class="nav-link text-white">Nos évènements</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <!-- Landing Page -->
+        <section class="d-flex flex-column align-content-center" id="landing-page">
+
+            <div class="masthead text-landing-page text-center h-100 ">
+                <h1 class="big-title text-white">Enfants du Maroc</h1>
+                <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore beatae officiis
+                    assumenda quae? Ex, tempore.</p>
+                 <a href="#" class="green-button btn btn-lg">Faire un Don</a>
             </div>
 
-    
-            <nav class="collapse navbar-collapse justify-content-end text-uppercase col-8" id="navbarNavToggler">
-                <ul class="navbar-nav nav-pills">
-                    <li class="nav-item me-2"><a href="index.html" class="nav-link active" aria-current="page">Acceuil</a></li>
-                    <li class="nav-item me-2"><a href="about-us.html" class="nav-link">À propos de nous</a></li>
-                    <li class="nav-item me-2"><a href="events.html" class="nav-link">Nos évènements</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+            <div class="scroll text-center p-5">
+                <a class="scroll-down text-white" href="#"><i class="fa-solid fa-circle-chevron-down fa-2xl"></i></a>
+            </div>
+        </section>
     </div>
 
-    <section class="d-flex flex-column align-items-center justify-content-center h-100">
+    <!-- Presentation -->
+    <section class=" container py-5" id="presentation">
+        <div class="row align-items-md-stretch d-flex justify-content-center">
+            <div class="image-presentation col-lg-6 col-12">
+                <img src="images/orphelins.jpg" alt="Orphelins">
+            </div>
 
-        <div class="masthead text-landing-page text-center">
-            <h1 class="big-title text-white">Enfants du Maroc</h1>
-            <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore beatae officiis assumenda quae? Ex, tempore.</p> 
-            <button class="about-us btn btn-lg">Faire un Don</button>
+            <div class="text-presentation col-lg-6 col-12 align-self-center">
+                <h2>Association humanitaire au service des orphelins du Maroc</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour,
+                    or randomised words which don't look even slightly believable. If you are going to use a passage of
+                    Lorem Ipsum, you need to be sure there
+                    isn't anything embarrassing hidden in the middle of text.
+                </p>
+                <a href="about-us.html" class="green-button btn btn-lg">Qui sommes-nous ?</a>
+            </div>
         </div>
-        
-        <div class="scroll text-center mt-auto">
-            <a class="scroll-down text-white" href="#"><i class="fa-solid fa-circle-chevron-down fa-2xl"></i></a>
-        </div>
-
     </section>
+
+    <!-- Actions en cours -->
+    <section class="py-5" id="actions">
+        <div class="title text-center">
+            <h2>Nos actions en cours</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore beatae officiis assumenda quae? Ex,
+                tempore.</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="/images/orphelins.jpg" alt="Card image" class="card-img-top">
+                        <div class="card-body text-center pb-4">
+                            <p class="card-text">Objectif : 500,00€ / Collecté : 350,00€</p>
+                            <h4 class="pb-3">Vêtements pour un orphelinat à Marrakech</h4>
+                            <a href="#" target="_blank" class="green-button btn text-uppercase">Faire un don</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="/images/orphelins.jpg" alt="Card image" class="card-img-top">
+                        <div class="card-body text-center pb-4">
+                            <p class="card-text">Objectif : 500,00€ / Collecté : 350,00€</p>
+                            <h4 class="pb-3">Achat de kits scolaires pour les enfants</h4>
+                            <a href="#" target="_blank" class="green-button btn text-uppercase">Faire un don</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="/images/orphelins.jpg" alt="Card image" class="card-img-top">
+                        <div class="card-body text-center pb-4">
+                            <p class="card-text">Objectif : 500,00€ / Collecté : 350,00€</p>
+                            <h4 class="pb-3">Achat de matelas pour l'orphelinat de Rabat</h4>
+                            <a href="#" target="_blank" class="green-button btn text-uppercase">Faire un don</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pt-5 text-center" id="lien-actions">
+            <a href="events.html">Toutes nos actions</a>
+        </div>
+    </section>
+
+    <!-- Domaines d'intervention -->
+    <section class="py-5" id="domaines-intervention">
+
+        <div class="title text-center">
+            <h2>Nos domaines d'intervention</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore beatae officiis assumenda quae? Ex,
+                tempore.</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="intervention mt-5 col-lg-3 col-6 text-center ">
+                    <img src="/images/sanitary.png" alt="">
+                    <p class="font-weight-bold mt-2">Hygiène & Santé</p>
+                </div>
+
+                <div class="intervention mt-5 col-lg-3 col-6 text-center">
+                    <img src="/images/dish.png" alt="">
+                    <p class="font-weight-bold mt-2">Nutrition</p>
+                </div>
+
+                <div class="intervention mt-5 col-lg-3 col-6 text-center">
+                    <img src="/images/open-book.png" alt="">
+                    <p class="font-weight-bold mt-2">Eveil & Education</p>
+                </div>
+
+                <div class="intervention mt-5 col-lg-3 col-6 text-center">
+                    <img src="/images/clothing.png" alt="">
+                    <p class="font-weight-bold mt-2">Habillement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dernières actualités -->
+    <section class="py-5" id="actualites">
+
+        <div class="title text-center">
+            <h2>Nos dernières actualités</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore beatae officiis assumenda quae? Ex,
+                tempore.</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="images/orphelins.jpg" alt="Card image" class="card-img-top">
+                        <div class="card-body">
+                            <h4>Remise des uniformes à l'orphelinat de Rabat</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                laborum temporibus excepturi doloribus modi tempora?
+                            </p>
+                            <a href="#" target="_blank" class="btn btn-ml btn-outline-secondary">Lire la suite</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="images/orphelins.jpg" alt="Card image" class="card-img-top">
+                        <div class="card-body">
+                            <h4>Remise des uniformes à l'orphelinat de Rabat</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                laborum temporibus excepturi doloribus modi tempora?
+                            </p>
+                            <a href="#" target="_blank" class="btn btn-ml btn-outline-secondary">Lire la suite</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="images/orphelins.jpg" alt="Card image" class="card-img-top">
+                        <div class="card-body">
+                            <h4>Remise des uniformes à l'orphelinat de Rabat</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                laborum temporibus excepturi doloribus modi tempora?
+                            </p>
+                            <a href="#" target="_blank" class="btn btn-ml btn-outline-secondary">Lire la suite</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 text-white" id="intro">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using 'Content here, content here', making it look like
+                        readable English.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 text-white" id="newsletter">
+                    <h4 class="font-weight-bold">Newsletter</h4>
+                    <p>Abonnez-vous à notre Newsletter pour vous tenir informé de l'actualité de l'association.</p>
+                    <form action="">
+                        <div>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="E-mail">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">J'accepte les conditions</label>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn green-button">S'inscrire</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12" id="reseaux-sociaux">
+                    <h4 class="text-white">Nous suivre sur les réseaux sociaux</h4>
+                    <img src="images/facebook.png" alt="Logo Facebook"><a href=""></a>
+                    <img src="images/instagram.png" alt="Logo Instagram"><a href=""></a>
+                    <img src="images/youtube.png" alt="Logo Youtube"><a href=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

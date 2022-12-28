@@ -13,20 +13,12 @@ html {
 body {
     font-size: 1.2rem; /*12px*/
     font-family: 'Lato', sans-serif;
-    background-image: url('images/bg.jpg');
-    height: 80vh;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
+
 
 /* Header */
 .logo img {
-    width: 100px;
-}
-
-.navbar-nav .nav-item .nav-link {
-    color: white;
+    width: 10rem;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -34,16 +26,56 @@ body {
     background-color: #00833E;
 }
 
-/* Landing page */
-.masthead {
-    padding-top: 15rem;
+.bg-color {
+    background-color: #E5C889;
 }
 
-.about-us {
+/* Landing page */
+.background {
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.masthead {
+    padding: 5rem;
+}
+
+.green-button {
     background-color: #00833E;
     color: #fff;
 }
 
 .scroll .scroll-down {
     text-decoration: none;
+}
+
+/* Presentation */
+.image-presentation img {
+    width: 600px;
+}
+
+/* Actions en cours */
+#actions {
+    background-color: bisque;
+}
+
+#lien-actions a {
+    color: #000;
+}
+
+/* Dernieres actualites */
+#actualites {
+    background-color: lightgrey;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+}
+
+#reseaux-sociaux img {
+    height: 5rem;
 }
