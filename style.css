@@ -39,7 +39,7 @@ body {
 /* index.hmtl */
 /* Landing page */
 .background {
-    background: url('images/bg.jpg');
+    background: url('images/index/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -48,7 +48,10 @@ body {
 
 .green-button {
     background-color: #00833E;
-    color: #fff;
+    color: #fff; }
+    .green-button:hover {
+    color: #00833E;
+    border: solid #00833E;
 }
 
 .scroll .scroll-down {
@@ -69,6 +72,7 @@ body {
     background-color: lightgrey;
 }
 
+/* About-us.html */
 /* Notre équipe */
 #equipe {
     background-color: lightgrey;
