@@ -35,8 +35,10 @@
 
                 <nav class="collapse navbar-collapse text-uppercase justify-content-end" id="navbarNavToggler">
                     <ul class="navbar-nav nav-pills">
-                        <li class="nav-item me-2"><a href="index.html" class="nav-link text-dark" aria-current="page">Acceuil</a></li>
-                        <li class="nav-item me-2"><a href="about-us.html" class="nav-link text-dark">À propos de nous</a></li>
+                        <li class="nav-item me-2"><a href="index.html" class="nav-link text-dark"
+                                aria-current="page">Acceuil</a></li>
+                        <li class="nav-item me-2"><a href="about-us.html" class="nav-link text-dark">À propos de
+                                nous</a></li>
                         <li class="nav-item me-2"><a href="events.html" class="nav-link text-dark">Nos actions</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
                     </ul>
@@ -56,6 +58,90 @@
             </nav>
         </div>
     </div>
+
+    <!-- Introduction -->
+    <section class="py-5" id="intro-contact">
+        <div class="container">
+            <div class="text-contact">
+                <h1 class="fw-bold">Contactez-nous</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptatibus porro neque tempore
+                    architecto cupiditate qui quas aspernatur minus nihil, mollitia necessitatibus perferendis
+                    laboriosam expedita, vel deleniti omnis officiis repellendus?</p>
+            </div>
+
+            <div class="row align-items-stretch no-gutters contact-wrap rounded my-5 px-4 pt-5">
+                <div class="col-md-12">
+                    <div class="form h-100">
+                        <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 form-group mb-3">
+                                    <label for="" class="form-label">Prénom *</label>
+                                    <input type="text" class="form-control input-form" name="name" id="name"
+                                        placeholder="Votre prénom">
+                                </div>
+                                <div class="col-md-6 form-group mb-3">
+                                    <label for="" class="form-label">E-mail *</label>
+                                    <input type="email" class="form-control input-form" name="email" id="email"
+                                        placeholder="Votre e-mail">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 form-group mt-4 mb-5">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea class="form-control input-form" name="message" id="message" cols="30" rows="4"
+                                        placeholder="Écrivez votre message"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <a href="#" target="_blank" class="btn green-button btn-lg">Envoyer</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 text-white" id="intro">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using 'Content here, content here', making it look like
+                        readable English.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 text-white" id="newsletter">
+                    <h4 class="font-weight-bold">Newsletter</h4>
+                    <p>Abonnez-vous à notre Newsletter pour vous tenir informé de l'actualité de l'association.</p>
+                    <form action="">
+                        <div>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">J'accepte les conditions</label>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn green-button">S'inscrire</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12" id="reseaux-sociaux">
+                    <h4 class="text-white">Nous suivre sur les réseaux sociaux</h4>
+                    <img src="images/facebook.png" alt="Logo Facebook"><a href=""></a>
+                    <img src="images/instagram.png" alt="Logo Instagram"><a href=""></a>
+                    <img src="images/youtube.png" alt="Logo Youtube"><a href=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
