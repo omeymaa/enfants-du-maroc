@@ -31,6 +31,10 @@ body {
     background-color: #E5C889;
 }
 
+.custom-toggler {
+    border-color: #fff;
+}
+
 /* Fil d'ariane */
 #ariane {
     background-color: bisque;
