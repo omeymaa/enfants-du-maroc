@@ -11,8 +11,9 @@ html {
 }
 
 body {
-    font-size: 1.2rem; /*12px*/
+    font-size: 1.1rem; /*11px*/
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -54,11 +55,6 @@ body {
     text-decoration: none;
 }
 
-/* Presentation */
-.image-presentation img {
-    width: 600px;
-}
-
 /* Actions en cours */
 #actions {
     background-color: bisque;
@@ -71,15 +67,6 @@ body {
 /* Dernieres actualites */
 #actualites {
     background-color: lightgrey;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-}
-
-#reseaux-sociaux img {
-    height: 5rem;
 }
 
 /* Notre équipe */
@@ -104,4 +91,20 @@ footer {
 .contact-wrap {
     box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
     border: 1px solid #efefef;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    font-size: 1rem;
+}
+
+#icones-rs img {
+    height: 45px;
+}
+
+/* Copyright */
+#copyright {
+    background-color: #2d2d2d;
+    color: white;
 }
