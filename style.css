@@ -86,3 +86,22 @@ footer {
 #equipe {
     background-color: lightgrey;
 }
+
+/* Contact */
+.input-form {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    background: none; }
+    .input-form:active, .input-form:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-color: #000; }
+      
+.contact-wrap {
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #efefef;
+}
