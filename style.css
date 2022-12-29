@@ -39,7 +39,7 @@ body {
 /* index.hmtl */
 /* Landing page */
 .background {
-    background-image: url('images/bg.jpg');
+    background: url('images/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -89,8 +89,8 @@ body {
       border-color: #000; }
       
 .contact-wrap {
-    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
-    border: 1px solid #efefef;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.10);
+    border: 1px solid #E5C889;
 }
 
 /* Footer */
