@@ -35,6 +35,7 @@ body {
     background-color: bisque;
 }
 
+/* index.hmtl */
 /* Landing page */
 .background {
     background-image: url('images/bg.jpg');
@@ -42,10 +43,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-}
-
-.masthead {
-    padding: 5rem;
 }
 
 .green-button {
