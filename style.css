@@ -62,13 +62,13 @@ body {
     text-decoration: none;
 }
 
+#lien-actions a {
+    color: #000;
+}
+
 /* Actions en cours */
 #actions {
     background-color: bisque;
-}
-
-#lien-actions a {
-    color: #000;
 }
 
 /* Dernieres actualites */
@@ -94,7 +94,7 @@ body {
       outline: none;
       -webkit-box-shadow: none;
       box-shadow: none;
-      border-color: #000; }
+      border-color: #E5C889; }
       
 .contact-wrap {
     box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.10);
